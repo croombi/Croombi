@@ -1,0 +1,123 @@
+/*
+Theme Name: Croombi
+Theme URI: http://Croombi.com/
+Description: Compatible with 2.9.x, valid XHTML & CSS. 
+Author: Miguel
+Template: Croombi
+Version: 0.0.1
+*/
+
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+{ 
+	border: 0;
+	outline: 0;
+	vertical-align:	baseline;
+	background:	transparent; 
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	color: #000;
+	background-color: #000;
+}
+#header 
+{
+	
+	background-color: #FFF;
+	height: 50px;
+}
+#logo
+{
+	left: 100px;
+	background-color:#999;
+	height: auto;
+	width: auto;
+	position: absolute;
+	top: 10px;
+}
+#widgetheader
+{
+	background-color:#999;
+	height: auto;
+	width: autox;
+	left: 970px;
+	top: 10px;
+	position: absolute;	
+}
+#top_nav
+{
+	background-color: #CCC;
+  display:inline-block;
+	
+}
+
+#search form { 
+padding-left: 820px;
+background-color: transparent;
+height: 28px;
+width: 178px;
+}
+
+#searchform 
+{ 
+margin-bottom: 40px;
+}
+#content
+{
+	margin-left:7px;
+	padding-top: 0;
+	padding-right: 120px;
+	padding-left: 120px;
+}
+#content-body{
+	display:inline-block;
+	min-height:10px;
+	height:auto !important;
+	width: 790px;
+	background-color: #999;
+}
+.postes
+{
+	height:auto!important;
+	margin-bottom:1em;
+}
+.share
+{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-color: #CCC;
+	height: 100px;
+	width: 57px;
+	position: absolute;
+	text-align: center;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: -57px;
+	z-index: 2;
+}
+
+.tittle
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	margin-bottom:1em;
+	color: #F00;
+}
+.sidebar
+{
+	width:195px;
+	margin-left:7px;
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:top;
+	background-color: #998;
+}
+#footer
+{
+	height:40px;
+	background-color: #FFF;
+}
