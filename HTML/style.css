@@ -7,26 +7,31 @@ Template: Croombi
 Version: 0.0.1
 */
 
-/* RESET */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
-{ 
-	border: 0;
-	outline: 0;
-	vertical-align:	baseline;
-	background:	transparent; 
-	margin: 0;
-	padding: 0;
-}
 body
 {
-	color: #000;
-	background-color: #000;
-}
-#header 
-{
-	
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	background-attachment: scroll;
 	background-color: #FFF;
-	height: 50px;
+	background-image: url("images/bg.png");
+	background-repeat: repeat-x;
+	background-position: 0px 115px;
+}
+/*header*/
+.header
+{
+   background: black url("images/header.png") repeat-x scroll 0px 0px;
+   border-bottom: ;
+   height: 132px;
+   margin-bottom: 0px;
+   min-width: 1200px;
+   padding: 0px;
+   width: 100%;
+   z-index: 100;
 }
 #logo
 {
@@ -116,8 +121,32 @@ margin-bottom: 40px;
 	vertical-align:top;
 	background-color: #998;
 }
-#footer
-{
-	height:40px;
-	background-color: #FFF;
+/*Footer*/
+#footer 
+{ 
+display: block;
+background-attachment: scroll;
+background-repeat: repeat-x;
+background-position: 0% 0%;
+background-color: transparent;
+background-image: url("images/footer.png");
+margin-top: 10px;
+margin-right: 0;
+margin-bottom: 5px;
+margin-left: 0;
+overflow-x: hidden;
+overflow-y: hidden;
+alignment-baseline: auto;
+line-height: normal;
+height: 30px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 0;
+padding-left: 20px;
+height: 132px;
+width: 100%;
 }
+div#footer { 
+line-height: 14px;
+}
+
